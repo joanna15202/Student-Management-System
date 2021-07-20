@@ -12,7 +12,6 @@ env:
   POSTGRESQL_USER: Joanna
   POSTGRESQL_PASSWORD: password
   JAVA_VERSION: 1.11
-  MY_ENV_VAR: CI=false
 
 jobs:
   build:
