@@ -9,7 +9,7 @@ on:
 env:
   POSTGRESQL_VERSION: 13.1
   POSTGRESQL_DB: joannawang
-  POSTGRESQL_USER: joannawang
+  POSTGRESQL_USER: Joanna
   POSTGRESQL_PASSWORD: password
   JAVA_VERSION: 1.11
 
