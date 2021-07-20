@@ -1,6 +1,6 @@
 import {useState, useEffect} from "react";
 import {getAllStudents, deleteStudent} from "./client";
-import {Layout, Menu, Breadcrumb, Table, Spin, Empty, Button, Badge, Tag, Popconfirm, Radio} from 'antd';
+import {Layout, Menu, Breadcrumb, Table, Spin, Empty, Button, Badge, Tag, Popconfirm, Radio, Image} from 'antd';
 import {
     DesktopOutlined,
     PieChartOutlined,
@@ -211,7 +211,11 @@ function App() {
                     {renderStudents()}
                 </div>
             </Content>
-            <Footer style={{textAlign: 'center'}}>By Joanna Wang ©2021</Footer>
+            <Footer style={{textAlign: 'center'}}>
+                <Image
+                    width={75}
+                    src="https://user-images.githubusercontent.com/77326591/126272236-7a86bb4b-4ee8-4cda-967c-edc6087a8301.png"/>
+            </Footer>
         </Layout>
     </Layout>
 }
