@@ -230,8 +230,10 @@ function App() {
                     width={75}
                     src="https://user-images.githubusercontent.com/77326591/126272236-7a86bb4b-4ee8-4cda-967c-edc6087a8301.png"/>
                 <Divider>
-                    <a target="_blank"
-                       href="https://www.linkedin.com/in/yu-hsing-joanna-wang/">Click here to access Joanna's LinkedIn</a>
+                    <a
+                        rel="noopener noreferrer"
+                        target="_blank"
+                        href="https://www.linkedin.com/in/yu-hsing-joanna-wang/">Click here to access Joanna's LinkedIn</a>
                 </Divider>
             </Footer>
         </Layout>
